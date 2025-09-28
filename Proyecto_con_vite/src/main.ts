@@ -5,7 +5,7 @@ const btnSumar = document.getElementById('sumar') as HTMLButtonElement;
 const btnRestar = document.getElementById('restar') as HTMLButtonElement;
 
 btnSumar.addEventListener('click', () => {
-  contador++;
+  contador+=2;
   display.textContent = contador.toString();
 });
 

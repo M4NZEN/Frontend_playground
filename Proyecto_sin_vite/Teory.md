@@ -1,0 +1,1 @@
+Sin usar Vite tenemos que compilar el ts para generar el js en cada cambio y luego recargar la pagina del navegador web
