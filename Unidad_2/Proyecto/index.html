@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini To-Do List Avanzado</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Mi To-Do List</h1>
+
+    <input type="text" id="inputTarea" placeholder="Escribe una tarea...">
+    <button id="btnAgregar">Agregar tarea</button>
+    <button id="btnEliminarUltima">Eliminar última</button>
+
+    <ul id="listaTareas"></ul>
+
+    <!-- Template para tareas -->
+    <template id="tareaTemplate">
+        <li class="tarea">
+            <span class="texto"></span>
+            <button class="btnEliminar">Eliminar</button>
+        </li>
+    </template>
+
+    <script src="index.js"></script>
+</body>
+</html>
